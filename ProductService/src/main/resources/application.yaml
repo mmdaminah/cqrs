@@ -37,7 +37,5 @@ axon:
       product-group:
         mode: subscribing
   serializer:
-    messages: jackson
     events: jackson
-    general: jackson
 

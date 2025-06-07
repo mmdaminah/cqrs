@@ -35,6 +35,4 @@ axon:
       order-group:
         mode: subscribing
   serializer:
-    general: jackson
-    messages: jackson
     events: jackson

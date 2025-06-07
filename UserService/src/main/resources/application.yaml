@@ -7,6 +7,4 @@ server:
 
 axon:
   serializer:
-    messages: jackson
     events: jackson
-    general: jackson

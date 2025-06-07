@@ -24,7 +24,6 @@ public class ProductQueryController {
     @GetMapping
     public List<ProductDto> getProducts() {
 
-        // TODO: it is throwing error and not working.
         return queryGateway.query(
                 new FindProductsQuery(),
                 ResponseTypes.multipleInstancesOf(ProductDto.class)
